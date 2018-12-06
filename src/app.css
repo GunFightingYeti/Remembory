@@ -38,10 +38,14 @@
 .orange-text {
   color: #a14007;
   text-shadow: 1px 2px 1px black;
+  font-weight: 600;
 }
 
 .jumbotron {
   background-color: #282c34;
-  background-image: url("./components/images/neurons.jpg");
+  background-image: url("./components/images/stars.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   text-shadow: 1px 2px 1px black;
+  font-weight: 600;
 }

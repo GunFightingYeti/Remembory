@@ -8,7 +8,7 @@ export function CharacterList({ children }) {
 
 // RecipeListItem renders a bootstrap list item containing data from the recipe api call
 export function ClickyPicture({
-  image = "https://placehold.it/300x300",
+  src = "https://placehold.it/300x300",
   name,
 }) {
   return (
@@ -16,9 +16,7 @@ export function ClickyPicture({
       <Container>
         <Row>
           <Col size="xs-4 sm-2">
-            <Thumbnail src={image} />
-          </Col>
-          <Col size="xs-8 sm-9">
+            <Thumbnail src={src} />
             <h3>{name}</h3>
           </Col>
         </Row>

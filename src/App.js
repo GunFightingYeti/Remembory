@@ -11,74 +11,74 @@ class App extends Component {
       {
         key: 1,
         name: "Malcolm Reynolds",
-        src:  ""
+        src:  "./src/components/images/mal.jpg"
         },
       {
         key: 2,
-        name: "Zoe Washburn",
-        src:  ""
+        name: "Zoe Washburne",
+        src:  "./src/components/images/zoe.jpg"
         },
       {
         key: 3,
-        name: "Hobart Washburn",
-        src:  ""
+        name: "Hobart Washburne",
+        src:  "./src/components/images/wash.jpg"
         },
       {
         key: 4,
         name: "Jayne Cobb",
-        src:  ""
+        src:  "./src/components/images/jayne.jpg"
         },
       {
         key: 5,
         name: "Kaylee Frye",
-        src:  ""
+        src:  "./components/images/kaylee.jpg"
         },
       {
         key: 6,
-        name: "Inera Serra",
-        src:  ""
+        name: "Inara Serra",
+        src:  "/src/components/images/inara.jpg"
         },
       {
         key: 7,
         name: "River Tam",
-        src:  ""
+        src:  "./src/components/images/river.jpg"
         },
       {
         key: 8,
         name: "Shepard Book",
-        src:  ""
+        src:  "./src/components/images/book.jpg"
         },
       {
         key: 9,
         name: "Simon Tam",
-        src:  ""
+        src:  "./src/components/images/simon.jpg"
         },
       {
         key: 10,
         name: "Serenity",
-        src: ""
+        src: "./src/components/images/serenity.jpg"
         },
       {
         key: 11,
-        name: "YoSafBridge",
-        src: ""
+        name: "YoSaffBridge",
+        src: "./src/components/images/yosaffbridge.jpg"
         },
       {
         key: 12,
         name: "Badger",
-        src: ""
+        src: "./src/components/images/badger.jpg"
         },
   ]
   };
 
-  handleInputChange = event => {
-    // Destructure the name and value properties off of event.target
-    // Update the appropriate state
-    const { name, value } = event.target;
-    this.setState({
-      [name]: value
-    });
-  };
+  // handleInputChange = event => {
+  //   // Destructure the name and value properties off of event.target
+  //   // Update the appropriate state
+  //   const { name, value } = event.target;
+  //   this.setState({
+  //     [name]: value
+  //   });
+  // };
 
   // handleFormSubmit = event => {
   //   // When the form is submitted, prevent its default behavior, get recipes update the recipes state
@@ -95,41 +95,7 @@ class App extends Component {
         <Jumbotron />
         <Container>
           <Row>
-            <Col size="md-12">
-
-
-              {/* <form>
-                <Container>
-                  <Row>
-                    <Col size="xs-9 sm-10">
-                      <Input
-                        name="recipeSearch"
-                        value={this.state.recipeSearch}
-                        onChange={this.handleInputChange}
-                        placeholder="Search For a Recipe"
-                      />
-                    </Col>
-                    <Col size="xs-3 sm-2">
-                      <Button
-                        onClick={this.handleFormSubmit}
-                        type="success"
-                        className="input-lg"
-                      >
-                        Search
-                      </Button>
-                    </Col>
-                  </Row>
-                </Container>
-              </form> */}
-
-
-            </Col>
-          </Row>
-          <Row>
-            <Col size="xs-12">
-              {!this.state.characters.length ? (
-                <h1 className="text-center">No Recipes to Display</h1>
-              ) : (
+            <Col size="12">
                 <CharacterList>
                   {this.state.characters.map(person => {
                     return (
@@ -141,7 +107,6 @@ class App extends Component {
                     );
                   })}
                 </CharacterList>
-              )}
             </Col>
           </Row>
         </Container>
