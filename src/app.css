@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: url("/images/stars.png");
 }
 
 .App-logo {
@@ -38,14 +39,45 @@
 .orange-text {
   color: #a14007;
   text-shadow: 1px 2px 1px black;
-  font-weight: 600;
+  
 }
 
 .jumbotron {
-  background-color: #282c34;
-  background-image: url("./components/images/stars.png");
+  background-color: #282c3400;
   background-repeat: no-repeat;
   background-size: cover;
   text-shadow: 1px 2px 1px black;
   font-weight: 600;
+  border-width: 6px 0px 6px 0px;
+  border-color: #a14007;
+  border-style: ridge;
+  border-radius: 0px;
+}
+
+button {
+  padding: 0px;
+  background-color: #a14007;
+  border-radius: 8px;
+  margin: 10px;
+  border-style: none;
+}
+
+button:hover {
+  background-color: #ffffff;
+}
+
+.card {
+  height: auto;
+  width: max-content;
+  background-size: cover;
+  background-position: 50%;
+  margin: 3px;
+  background-color: #282c34;
+}
+
+.char {
+  padding: 5px;
+  width: 12rem;
+  border-radius: 8px;
+  margin: 10px;
 }

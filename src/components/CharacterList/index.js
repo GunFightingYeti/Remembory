@@ -1,26 +1,20 @@
 import React from "react";
-import Thumbnail from "../Thumbnail";
-import { Container, Row, Col } from "../Grid";
+import '../../app.css';
 
-export function CharacterList({ children }) {
-  return <ul className="list-group">{children}</ul>;
-}
-
-// RecipeListItem renders a bootstrap list item containing data from the recipe api call
-export function ClickyPicture({
-  src = "https://placehold.it/300x300",
-  name,
-}) {
+function ClickyPicture(props) {
   return (
-    <li className="list-group-item">
-      <Container>
-        <Row>
-          <Col size="xs-4 sm-2">
-            <Thumbnail src={src} />
-            <h3>{name}</h3>
-          </Col>
-        </Row>
-      </Container>
-    </li>
+  <button className="clickMe" data-clicked="false">
+    <div className="card">
+      <div className="img-container">
+        <img className="char"
+          alt={props.name}
+          src={props.src}
+        />
+      </div>
+        <h5 className="orange-text">{props.name}</h5>
+    </div>
+  </button>
   );
 }
+
+export default ClickyPicture;
