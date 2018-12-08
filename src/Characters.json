@@ -2,50 +2,62 @@
     {
         "key": 1,
         "name": "Malcolm Reynolds",
-        "url": "./images/mal.jpg"
+        "url": "./images/mal.jpg",
+        "clicked": false
     }, {
         "key": 2,
         "name": "Zoe Washburne",
-        "url": "./images/zoe.jpg"
+        "url": "./images/zoe.jpg",
+        "clicked": false
     }, {
         "key": 3,
         "name": "Hobart Washburne",
-        "url": "./images/wash.jpg"
+        "url": "./images/wash.jpg",
+        "clicked": false
     }, {
         "key": 4,
         "name": "Jayne Cobb",
-        "url": "./images/jayne.jpg"
+        "url": "./images/jayne.jpg",
+        "clicked": false
     }, {
         "key": 5,
         "name": "Kaylee Frye",
-        "url": "./images/kaylee.jpg"
+        "url": "./images/kaylee.jpg",
+        "clicked": false
     }, {
         "key": 6,
         "name": "Inara Serra",
-        "url": "/images/inara.jpg"
+        "url": "/images/inara.jpg",
+        "clicked": false
     }, {
         "key": 7,
         "name": "River Tam",
-        "url": "./images/river.jpg"
+        "url": "./images/river.jpg",
+        "clicked": false
     }, {
         "key": 8,
         "name": "Shepard Book",
-        "url": "./images/book.jpg"
+        "url": "./images/book.jpg",
+        "clicked": false
     }, {
         "key": 9,
         "name": "Simon Tam",
-        "url": "./images/simon.jpg"
+        "url": "./images/simon.jpg",
+        "clicked": false
     }, {
         "key": 10,
         "name": "Serenity",
-        "url": "./images/serenity.jpg"
+        "url": "./images/serenity.jpg",
+        "clicked": false
     }, {
         "key": 11,
         "name": "YoSaffBridge",
-        "url": "./images/yosaffbridge.jpg"
+        "url": "./images/yosaffbridge.jpg",
+        "clicked": false
     }, {
         "key": 12,
         "name": "Badger",
-        "url": "./images/badger.jpg"
+        "url": "./images/badger.jpg",
+        "clicked": false
     }
 ]

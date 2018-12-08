@@ -3,11 +3,6 @@
   background-image: url("/images/stars.png");
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,26 +27,38 @@
   }
 }
 
+.orange-text {
+  color: #a14007;
+  text-shadow: 1px 2px 1px black;
+}
+
+.bg-dark {
+  background-image: url("/images/paper.jpg");
+}
+
 .navbar-brand {
   font-size: 2rem;
 }
 
-.orange-text {
-  color: #a14007;
-  text-shadow: 1px 2px 1px black;
-  
+#title {
+  color: white;
 }
 
 .jumbotron {
   background-color: #282c3400;
   background-repeat: no-repeat;
   background-size: cover;
-  text-shadow: 1px 2px 1px black;
+  text-shadow: 1px 2px 1px white;
   font-weight: 600;
   border-width: 6px 0px 6px 0px;
   border-color: #a14007;
   border-style: ridge;
   border-radius: 0px;
+  min-height: 0px;
+  padding: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 76px;
 }
 
 button {
@@ -62,22 +69,48 @@ button {
   border-style: none;
 }
 
+button:focus {
+  outline:0;
+}
+
 button:hover {
   background-color: #ffffff;
+  cursor: pointer;
+  cursor: url("/images/") 15 15, pointer;
 }
 
 .card {
   height: auto;
   width: max-content;
   background-size: cover;
-  background-position: 50%;
   margin: 3px;
   background-color: #282c34;
+  border-radius: 8px;
 }
 
 .char {
-  padding: 5px;
-  width: 12rem;
+  width: 10rem;
   border-radius: 8px;
-  margin: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  box-shadow: 4px 3px 12px black;
+}
+
+.shake {
+  animation: shake 0.5s; 
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
