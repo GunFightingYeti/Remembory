@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-image: url("/images/stars.png");
 }
 
 .App-header {
@@ -33,7 +32,7 @@
 }
 
 .bg-dark {
-  background-image: url("/images/paper.jpg");
+  background-image: url("/images/metal.jpg");
 }
 
 .navbar-brand {
