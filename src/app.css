@@ -68,6 +68,10 @@ button {
   border-style: none;
 }
 
+.win {
+  background-color: #00ff15;
+}
+
 button:focus {
   outline:0;
 }

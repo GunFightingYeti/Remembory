@@ -3,7 +3,7 @@ import '../../app.css';
 
 function ClickyPicture(props) {
   return (
-  <button data-key={props.unique} className={props.shake} onClick={props.Check}>
+  <button data-key={props.unique} className={props.class} onClick={props.Check}>
     <div className="card">
       <div className="img-container">
         <img className="char"

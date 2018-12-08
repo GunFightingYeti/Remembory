@@ -13,7 +13,7 @@ class App extends Component {
     score: 0,
     highscore: 0,
     result: "Click a button to start!",
-    shake: ""
+    class: ""
   };
 
   componentDidMount() {
@@ -44,7 +44,7 @@ class App extends Component {
       this.setState ({
         Characters: this.shuffle(this.state.Characters),
         result: "Wrong, try again!",
-        shake: "shake",
+        class: "shake",
         score: 0,
         guessed: []
     })
@@ -54,7 +54,7 @@ class App extends Component {
         Characters: this.shuffle(this.state.Characters),
         result: "You guessed correctly!",
         score: this.state.score + 1,
-        shake: "",
+        class: "",
       });
 
       // If you reach a new highscore
@@ -68,6 +68,8 @@ class App extends Component {
           Characters: this.shuffle(this.state.Characters),
           result: "Great job, you win!!!",
           score: 0,
+          highscore: 0,
+          class: "win",
           guessed: []
         });
     }
@@ -90,7 +92,7 @@ class App extends Component {
                       src={character.url}
                       clicked={character.clicked}
                       Check={this.handleClick}
-                      shake={this.state.shake}
+                      class={this.state.class}
                       />
                   </div>
                 );
