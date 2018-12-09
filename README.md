@@ -1,6 +1,71 @@
+# Firefly Remembory
+[Try it for yourself!](https://stormy-journey-52921.herokuapp.com/ "Firefly Remebory")
+
+
+<kbd>![Home page](./public/images/remembory.png "Home page")</kbd>
+
+
+## `Firefly Remembory is a memory game built with React`
+
+
+## `How to play Firefly Remembory`
+#### It presents you with twelve buttons and requires that you begin to press the buttons in sequence.  However, the sequence is decided by you!  I know right, mind blown!  How does a computer read your mind and predict the sequence?  (I hear you ask)  Well, I'll tell you.  It doesn't...but it doesn remember which buttons you have pressed in the past and if you press the same on twice you are penalized by being forced to restart the game.  In other words, press ever button without duplicating any to win.  
+
+#### If you don't believe me perhaps you would like to "[test it for yourself!](https://stormy-journey-52921.herokuapp.com/ "Firefly Remembory")"  
+
+<br>
+
+## `Getting started on your machine`: 
+* Clone the repo to your local machine
+* Install the yarn packages as instructed below
+* Run "yarn start" in a terminal window while cd-ed into the game's directory
+* React will open a web browser and navigate to localhost:3000 for you
+
+
+## `Prerequisites`:
+* Command Line interface
+* Yarn
+* Web Browser
+
+
+### `Required packages` (These are noted in the package.json)
+#### Just run the command "yarn install" from a terminal window while inside the same directory as the application to install all dependant packages
+* Axios
+* React
+* React-DOM
+* React-Scripts
+
+
+## `Built With`: 
+* VS Code
+* HTML5
+* CSS3
+* JavaScript
+* NodeJS
+* Axios
+* Heroku
+
+
+## `Author`: 
+#### Tim Lewis
+
+
+## `License`
+#### ISC
+
+
+## `Acknowledgments`
+* DU's Full Stack Development Bootcamp<br>
+* BFG for helping me when I got stuck
+
+
+<br><br>
+
+## `React Information`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## `Available Scripts`
 
 In the project directory, you can run:
 
