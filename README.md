@@ -9,9 +9,9 @@
 
 
 ## `How to play Firefly Remembory`
-#### It presents you with twelve buttons and requires that you begin to press the buttons in sequence.  However, the sequence is decided by you!  I know right, mind blown!  How does a computer read your mind and predict the sequence?  (I hear you ask)  Well, I'll tell you.  It doesn't...but it doesn remember which buttons you have pressed in the past and if you press the same on twice you are penalized by being forced to restart the game.  In other words, press ever button without duplicating any to win.  
+#### It presents you with twelve buttons and requires that you begin to press the buttons in sequence.  However, the sequence is decided by you!  I know right, mind blown!  How does a computer read your mind and predict the sequence?  (I hear you ask)  Well, I'll tell you.  It doesn't...but it doesn remember which buttons you have pressed in the past and if you press the same on twice you are penalized by being forced to restart the game.  In other words, press every button without duplicating any to win.  
 
-#### If you don't believe me perhaps you would like to "[test it for yourself!](https://stormy-journey-52921.herokuapp.com/ "Firefly Remembory")"  
+#### If you don't believe me perhaps you would like to [test it for yourself!](https://stormy-journey-52921.herokuapp.com/ "Firefly Remembory")
 
 <br>
 
